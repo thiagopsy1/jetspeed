@@ -35,9 +35,9 @@ export function Navbar() {
             </nav>
 
             <a href="/" className="absolute left-1/2 -translate-x-1/2">
-              <img src="/assets/logos/jetspeed-logo-03.png" alt="RioNet" className="h-9" onError={(e) => {
+              <img src="/assets/logos/jetspeed-logo-03.png" alt="JetSpeed" className="h-9" onError={(e) => {
                 e.currentTarget.style.display = 'none'
-                e.currentTarget.parentElement!.innerHTML = '<span class="text-white font-bold text-xl tracking-tight">RioNet</span>'
+                e.currentTarget.parentElement!.innerHTML = '<span class="text-white font-bold text-xl tracking-tight">JetSpeed</span>'
               }} />
             </a>
 

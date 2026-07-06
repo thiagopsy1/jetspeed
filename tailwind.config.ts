@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // RioNet Design Tokens
+        // JetSpeed Design Tokens
         primary: {
           DEFAULT: '#001c71',
           dark: '#000C40',

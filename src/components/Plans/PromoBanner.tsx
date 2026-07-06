@@ -13,7 +13,7 @@ export function PromoBanner() {
         <source media="(max-width: 767px)" srcSet="/assets/banner/banner-copa-jetspeed-mobile.png" />
         <img
           src="/assets/banner/banner-copa-jetspeed.png"
-          alt="Promoção RioNet"
+          alt="Promoção JetSpeed"
           className="w-full object-cover"
           onError={(e) => { e.currentTarget.style.display = 'none' }}
         />

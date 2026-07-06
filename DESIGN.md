@@ -1,4 +1,4 @@
-# Design System: RioNet Fibra Óptica
+# Design System: JetSpeed Fibra Óptica
 
 ## 1. Visual Theme & Atmosphere
 
