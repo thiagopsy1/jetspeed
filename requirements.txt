@@ -1,0 +1,18 @@
+# ============================================================
+# JetSpeed - Dependências Python
+# ============================================================
+
+# Carregamento de variáveis de ambiente
+python-dotenv>=1.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Manipulação de dados
+pandas>=2.1.0
+
+# Google APIs (descomente quando necessário)
+# google-auth>=2.23.0
+# google-auth-oauthlib>=1.1.0
+# google-api-python-client>=2.100.0
+# gspread>=5.12.0
