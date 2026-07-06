@@ -8,13 +8,15 @@ import { NAV_LINKS, WHATSAPP_URL, INSTAGRAM_URL, FACEBOOK_URL, WHATSAPP_NUMBER }
 
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
-  const { atTop } = useScrollHide()
+  const { visible, atTop } = useScrollHide()
 
   return (
     <>
-      <header
+      <motion.header
+        animate={{ y: visible ? 0 : '-100%' }}
+        transition={{ duration: 0.3, ease: 'easeInOut' }}
         className={cn(
-          'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+          'fixed top-0 left-0 right-0 z-50 transition-colors duration-300',
           atTop ? 'bg-secondary' : 'glass',
         )}
       >
@@ -84,7 +86,7 @@ export function Navbar() {
             </div>
           </div>
         </div>
-      </header>
+      </motion.header>
 
       {/* Mobile menu drawer */}
       <AnimatePresence>

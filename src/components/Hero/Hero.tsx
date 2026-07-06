@@ -66,7 +66,7 @@ export function Hero() {
       {/* Hero banner image */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <img
-          src="/assets/hero-banner/hero-banner-js.png"
+          src="/assets/hero-banner/hero-banner-js.jpg"
           alt=""
           className="w-full h-full object-cover opacity-20 object-center"
         />

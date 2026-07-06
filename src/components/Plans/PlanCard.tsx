@@ -43,7 +43,7 @@ export function PlanCard({ plan, apps, index }: PlanCardProps) {
         whileHover={{ y: -4 }}
         transition={{ type: 'spring', stiffness: 280, damping: 28 }}
         className={cn(
-          'relative flex flex-col rounded-[12px] p-6 card-stroke card-stroke-hover cursor-default select-none h-full',
+          'relative flex flex-col rounded-[12px] p-5 sm:p-6 card-stroke card-stroke-hover cursor-default select-none h-full',
           bg,
           plan.featured && 'ring-2 ring-white/30',
         )}
