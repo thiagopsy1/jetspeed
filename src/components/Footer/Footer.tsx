@@ -12,7 +12,7 @@ export function Footer() {
 
           {/* Brand */}
           <div className="flex flex-col items-center md:items-start gap-4">
-            <img src="/assets/logos/jetspeed-logo-01.svg" alt="JetSpeed" className="h-8" />
+            <img src="/assets/logos/jetspeed-logo-01.svg" alt="JetSpeed" className="h-16" />
             <p className="text-white/60 text-label-lg max-w-xs">
               Conectando Manaus com fibra óptica de verdade.
             </p>
